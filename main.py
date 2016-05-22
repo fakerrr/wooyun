@@ -12,7 +12,7 @@ import urllib.request
 import json
 import re
 import sys
-import os
+import o
 import cookielib
 import MySQLdb
 import chardet
