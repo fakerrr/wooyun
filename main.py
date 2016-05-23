@@ -59,7 +59,7 @@ class Wooyun(object):
         url_list = re.findall(url_pattern, respone_data)
         # 将页面所有匹配到的url相对路径放进一个数组里
         conn = MySQLdb.connect(
-            host='localhost', port=3306, user='root', passwd='lu19930913', db='Wooyun_tw', charset='utf8')
+            host='localhost', port=3306, user='root', passwd='*****', db='Wooyun_tw', charset='utf8')
         # 连接到数据库
         cur = conn.cursor()
         # 创建一个浮标，后面对数据库的操作都是调用这个cur的。
